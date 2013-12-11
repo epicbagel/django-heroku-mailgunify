@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
-__version__ = '0.01'
-
 from __future__ import unicode_literals
-
 import os
+
+__version__ = '0.01'
 
 __all__ = [
 	"MAILGUN_API_KEY", "MAILGUN_SMTP_SERVER", "MAILGUN_SMTP_LOGIN",
