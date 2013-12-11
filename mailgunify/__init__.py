@@ -11,10 +11,10 @@ __all__ = [
 ]
 
 #: Mailgun api key for using the REST API
-MAILGUN_API_KEY = os.environ.get("MAILGUN_API_KEY")
+MAILGUN_API_KEY = MAILGUN_ACCESS_KEY = os.environ.get("MAILGUN_API_KEY")
 
 #: Mailgun SMTP server host
-MAILGUN_SMTP_SERVER = os.environ.get("MAILGUN_SMTP_SERVER")
+MAILGUN_SMTP_SERVER = MAILGUN_SERVER_NAME = os.environ.get("MAILGUN_SMTP_SERVER")
 
 #: Mailgun SMTP server login
 MAILGUN_SMTP_LOGIN = os.environ.get("MAILGUN_SMTP_LOGIN")
