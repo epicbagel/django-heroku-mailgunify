@@ -10,6 +10,8 @@ __all__ = [
 	"EMAIL_HOST", "EMAIL_HOST_USER", "EMAIL_HOST_PASSWORD", "EMAIL_PORT"
 ]
 
+EMAIL_BACKEND = 'django_mailgun.MailgunBackend'
+
 #: Mailgun api key for using the REST API
 MAILGUN_API_KEY = MAILGUN_ACCESS_KEY = os.environ.get("MAILGUN_API_KEY")
 
