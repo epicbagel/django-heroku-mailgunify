@@ -1,14 +1,6 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals
+#from __future__ import unicode_literals
 import os
-
-__version__ = '0.01'
-
-__all__ = [
-	"MAILGUN_API_KEY", "MAILGUN_SMTP_SERVER", "MAILGUN_SMTP_LOGIN",
-	"MAILGUN_SMTP_PASSWORD", "MAILGUN_SMTP_PORT",
-	"EMAIL_HOST", "EMAIL_HOST_USER", "EMAIL_HOST_PASSWORD", "EMAIL_PORT"
-]
 
 EMAIL_BACKEND = 'django_mailgun.MailgunBackend'
 
