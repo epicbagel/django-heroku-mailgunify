@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import mailgunify
 setup(name='django-heroku-mailgunify',
-	version=sendgridify.__version__,
+	version = mailgunify.__version__,
 	packages = find_packages(),
 	license='The MIT License',
 	platforms=['OS Independent'],
